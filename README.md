@@ -52,3 +52,6 @@
 ---
 
 ✨ _“Code. Learn. Share. Repeat.”_
+---
+![GitHub Snake Animation](https://raw.githubusercontent.com/namazudatte/namazudatte/output/snake.svg)
+
