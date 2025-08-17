@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
@@ -22,7 +22,7 @@ jobs:
           outputs: dist/snake.svg
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4   # ✅ versi terbaru
         with:
           name: snake
           path: dist/snake.svg
@@ -32,7 +32,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4   # ✅ versi terbaru
         with:
           name: snake
           path: dist
