@@ -54,4 +54,7 @@
 ✨ _“Code. Learn. Share. Repeat.”_
 ---
 ![GitHub Snake Animation](https://raw.githubusercontent.com/namazudatte/namazudatte/output/snake.svg)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=namazudatte&show_icons=true&theme=tokyonight)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=namazudatte&theme=tokyo-night)
+
 
